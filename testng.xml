@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <!-- <classes>
+      <class name="SeleniumFramework.APITest">
+      	<methods>
+      		<include name="sampleTest.*" />
+      	</methods>
+      </class>
+      
+      <class name="SeleniumFramework.appiumTest">
+      	<methods>
+      		<include name="sampleTest.*" />
+      	</methods>
+      </class>
+    </classes>
+    
+     --> 
+     
+<!--    <groups> -->
+<!--    	<run> -->
+<!--    		<include name="sampleTest" /> -->
+<!--    	</run> -->
+<!--    </groups> -->
+     
+   <classes>
+   	<class name="SeleniumFramework.APITest" />
+   	<class name="SeleniumFramework.appiumTest" />
+   	<class name="SeleniumFramework.seleniumTest"/>
+   </classes>  
+     
+  </test> 
+</suite> 
